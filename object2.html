@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Object</title>
+</head>
+<body>
+    <label for="">Button1</label>
+    <input type="text" id="click">
+    <button type="submit">Store</button>
+    <div id="demo"></div>
+    <br>
+    <label for="">Button2</label>
+    <input type="text" id="click2">
+    <button type="submit">Reset</button>
+    <div id="demo2"></div>
+    <br>
+    <script>
+    var obj = {person1 : 
+        {nam: "Ali", age: 23,
+         email: "ali@gmail.com"},
+        person2:{nam:"Sana",age:22,
+          email: "sana@gmail.com"}}
+          for(a in obj){
+                document.write(obj[a].nam + " " + obj[a].email + " " + obj[a].age +  "<br>" )
+            }
+            document.write("<br>")
+            
+            
+            // document.write("<br>")
+            // for(b in obj.Person2){
+            //     document.write(obj.Person2[b] + " ")
+            // }
+          </script>
+
+</body>
+</html>
